@@ -8,7 +8,7 @@ const Resume = () => {
         <div> <h1 className='text-3xl font-bold'> Rijon Ahmed</h1>
           <p> Junior web Developer (React Developer)</p>
           <address>Purbachal-300ft-sector-02, Dhaka, Bangladesh.</address>
-          <p>GitHub Linkedin</p>
+          <p><a className='text-primary font-bold' href="https://github.com/Rijonahmed" target="_blank" rel="noopener noreferrer">GitHub</a> Linkedin</p>
         </div>
         <div className='lg:text-right '>
           <p>Email : rijon036@gmail.com</p>
