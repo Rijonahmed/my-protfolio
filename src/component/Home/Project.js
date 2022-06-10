@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import motoPartsIMG from '../../Images/moto-parts.jpg'
 import motoDealerIMG from '../../Images/motoDealer.jpg'
 import weddingIMG from '../../Images/New Project.jpg'
@@ -17,6 +18,7 @@ const Project = () => {
             </h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div class="card-actions justify-end">
+              <button className='btn btn-sm btn-outline btn-error'><Link to='/motoParts'>Details</Link></button>
               <button class="btn btn-sm btn-outline btn-error"><a href="https://moto-parts-62e64.web.app/" target="_blank" rel="noopener noreferrer">Live Preview</a></button>
 
             </div>
@@ -30,6 +32,7 @@ const Project = () => {
             </h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div class="card-actions justify-end">
+              <button className='btn btn-sm btn-outline btn-error'><Link to='/motoDealer'>Details</Link></button>
               <button class="btn btn-sm btn-outline btn-error"><a href="https://moto-dealer.web.app/" target="_blank" rel="noopener noreferrer">Live Preview</a></button>
             </div>
           </div>
@@ -42,6 +45,7 @@ const Project = () => {
             </h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div class="card-actions justify-end">
+              <button className='btn btn-sm btn-outline btn-error'><Link to='/weddingPhotographer'>Details</Link></button>
               <button class="btn btn-sm btn-outline btn-error"><a href="https://best-wedding-photographer.web.app/" target="_blank" rel="noopener noreferrer">Live Preview</a></button>
             </div>
           </div>
