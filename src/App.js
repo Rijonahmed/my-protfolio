@@ -4,6 +4,7 @@ import './App.css';
 import About from './component/Home/About';
 import Blog from './component/Home/Blog';
 import ContactUS from './component/Home/ContactUS';
+import Education from './component/Home/Education';
 import Home from './component/Home/Home';
 import Project from './component/Home/Project';
 import Resume from './component/Home/Resume';
@@ -25,6 +26,7 @@ function App() {
         <Route path='/projects' element={<Project></Project>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path='/education' element={<Education></Education>}></Route>
         <Route path='/resume' element={<Resume></Resume>}></Route>
         <Route path='/contactME' element={<ContactUS></ContactUS>}></Route>
         <Route path='/motoParts' element={<MotoParts></MotoParts>}></Route>

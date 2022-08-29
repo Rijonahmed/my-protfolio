@@ -34,7 +34,7 @@ const ContactUS = () => {
             <h1 class="text-5xl font-bold">Contact US</h1>
             <p class="py-6">However, if you have other request or question, don’t hesitate to use the form.</p>
           </div>
-          <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-black">
+          <div data-aos="flip-left" data-aos-duration="1000" class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-black">
             <div class="card-body">
               <form ref={form} onSubmit={sendEmail}>
                 <div class="form-control">
