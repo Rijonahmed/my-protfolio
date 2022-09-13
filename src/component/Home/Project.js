@@ -10,7 +10,22 @@ const Project = () => {
       <h1 className='text-3xl font-bold text-center text-orange-500 mb-10'>My Projects</h1>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
         <div class="card max-w-sm bg-base-100 shadow-xl">
-          <figure><img src={motoPartsIMG} alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/sWr5kgW/Screenshot-13-removebg-preview.png" alt="Bank Img" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Online Bank BD (Banking Website)
+
+            </h2>
+            <p>In this project we are providing Banking service.</p>
+            <div class="card-actions justify-end">
+              <button className='btn btn-sm btn-outline btn-error'><Link to='/motoParts'>Details</Link></button>
+              <button class="btn btn-sm btn-outline btn-error"><a href="https://online-money-bd.netlify.app/" target="_blank" rel="noopener noreferrer">Live Preview</a></button>
+
+            </div>
+          </div>
+        </div>
+        <div class="card max-w-sm bg-base-100 shadow-xl">
+          <figure><img src="https://i.ibb.co/YWbGS0M/Moto-Parts-removebg-preview.png" alt="moto parst img" /></figure>
           <div class="card-body">
             <h2 class="card-title">
               Moto Parts (Manufacturer Website)
@@ -25,7 +40,7 @@ const Project = () => {
           </div>
         </div>
         <div class="card max-w-sm bg-base-100 shadow-xl">
-          <figure><img src={motoDealerIMG} alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/1dkZzkC/moto-delar-2-removebg-preview.png" alt="moto dealer img" /></figure>
           <div class="card-body">
             <h2 class="card-title">
               Moto Dealer (Warehouse inventory Website)
@@ -38,7 +53,7 @@ const Project = () => {
           </div>
         </div>
         <div class="card max-w-sm bg-base-100 shadow-xl">
-          <figure><img src={weddingIMG} alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/QJWpMMv/wedding-13-removebg-preview.png" alt="BEST Wedding img" /></figure>
           <div class="card-body">
             <h2 class="card-title">
               BEST Wedding Photographer (Photographer service Website)
