@@ -2,8 +2,8 @@ import React from 'react';
 
 const MySkills = () => {
   return (
-    <div className='max-w-7xl mx-auto'>
-      <h1 className='text-3xl font-bold text-center text-orange-500 my-10'>My Skills</h1>
+    <div className='max-w-7xl mx-auto '>
+      <h1 className='text-3xl font-bold text-center text-primary my-10'>My Skills</h1>
 
       <div class="mx-12" data-aos="fade-down">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">

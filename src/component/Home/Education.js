@@ -6,7 +6,7 @@ const Education = () => {
       <div className='flex flex-col md:flex-row gap-2 justify-between items-center py-10 px-2'>
 
         <div data-aos="fade-down" data-aos-duration="1000" className="text-left">
-          <h3 className="text-3xl lg:text-5xl font-serif font-bold pb-4 lg:pb-8"><span className='text-orange-500'>Educational </span>
+          <h3 className="text-3xl lg:text-5xl font-serif font-bold pb-4 lg:pb-8"><span className='text-primary'>Educational </span>
             Background</h3>
           <p className='font-bold text-1xl'>• SSC batch-2017 from Amirjan High School in Dumni, Khilkhet, Dhaka.</p>
           <p className='font-bold text-1xl py-2'> • HSC batch-2019 from Amirjan College in Dumni, Khilkhet, Dhaka. </p>

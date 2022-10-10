@@ -7,7 +7,7 @@ import { FaGithub, FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
 const Banner = () => {
   return (
     <div>
-      <div class="hero ">
+      <div className="hero bg-secondary">
         <div class="hero-content flex-col lg:flex-row">
           <motion.div
             animate={{ x: -10 }}
@@ -16,7 +16,7 @@ const Banner = () => {
             }}
 
           >
-            <motion.img src={bannerImg} class="max-w-xs lg:max-w-md mask mask-decagon shadow-3xl border-8 border-slate-500" alt='' whileHover={{ scale: 0.9 }}
+            <motion.img src={bannerImg} class="max-w-xs lg:max-w-md mask mask-circle shadow-5xl border-8 border-primary bg-primary" alt='' whileHover={{ scale: 0.9 }}
               whileTap={{ scale: 0.9, }} transition={{
                 ease: "easeOut", duration: 0.5
               }} />
@@ -37,7 +37,7 @@ const Banner = () => {
               transition={{
                 ease: "easeOut", duration: .3
               }}
-            ><a className='bg-orange-600 p-3 rounded-2xl text-white font-bold text-center ' href="https://drive.google.com/file/d/1jP_MTWgPW32AM_teIBYb2djO5CuqTB47/view" target="_blank" rel="noopener noreferrer">Downlode Resume</a></motion.button>
+            ><a className='bg-primary p-3 rounded-2xl text-white font-bold text-center ' href="https://drive.google.com/file/d/1jP_MTWgPW32AM_teIBYb2djO5CuqTB47/view" target="_blank" rel="noopener noreferrer">Downlode Resume</a></motion.button>
             <div className='flex mt-5'>
               <motion.a whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9, }}

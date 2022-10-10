@@ -30,7 +30,7 @@ const Navber = () => {
 
             </ul>
           </div>
-          <Link className="btn btn-ghost normal-case text-xl" to='/' ><span className='text-orange-500'>Rijon Ahmed</span></Link>
+          <Link className="btn btn-ghost normal-case text-xl" to='/' ><span className='text-primary'>Rijon Ahmed</span></Link>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal p-0">

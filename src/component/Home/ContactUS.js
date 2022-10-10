@@ -57,7 +57,7 @@ const ContactUS = () => {
                   <textarea name='message' class="textarea textarea-bordered" placeholder="Type"></textarea>
 
                 </div>
-                <button className='btn bg-orange-500 mt-5 w-full text-2xl font-bold'>
+                <button className='btn bg-primary mt-5 w-full text-2xl font-bold'>
                   <input type="submit" value="Send" />
                 </button>
 
