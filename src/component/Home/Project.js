@@ -18,7 +18,7 @@ const Project = () => {
             </h2>
             <p>In this project we are providing Banking service.</p>
             <div class="card-actions justify-end">
-              <button className='btn btn-sm btn-outline btn-error'><Link to='/motoParts'>Details</Link></button>
+              <button className='btn btn-sm btn-outline btn-error'><Link to='/onlineBankBD'>Details</Link></button>
               <button class="btn btn-sm btn-outline btn-error"><a href="https://online-money-bd.netlify.app/" target="_blank" rel="noopener noreferrer">Live Preview</a></button>
 
             </div>

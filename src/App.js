@@ -11,6 +11,7 @@ import Resume from './component/Home/Resume';
 import NotFound from './component/NotFound/NotFound';
 import MotoDealer from './component/ProductsDetails/MotoDealer';
 import MotoParts from './component/ProductsDetails/MotoParts';
+import OnlineBankBD from './component/ProductsDetails/OnlineBankBD';
 import WeddingPhotographer from './component/ProductsDetails/WeddingPhotographer';
 import Footer from './component/Shared/Footer';
 import Navber from './component/Shared/Navber';
@@ -29,6 +30,7 @@ function App() {
         <Route path='/education' element={<Education></Education>}></Route>
         <Route path='/resume' element={<Resume></Resume>}></Route>
         <Route path='/contactME' element={<ContactUS></ContactUS>}></Route>
+        <Route path='/onlineBankBD' element={<OnlineBankBD></OnlineBankBD>}></Route>
         <Route path='/motoParts' element={<MotoParts></MotoParts>}></Route>
         <Route path='/motoDealer' element={<MotoDealer></MotoDealer>}></Route>
         <Route path='/weddingPhotographer' element={<WeddingPhotographer></WeddingPhotographer>}></Route>
