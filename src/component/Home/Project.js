@@ -64,6 +64,20 @@ const Project = () => {
             </div>
           </div>
         </div>
+        {/* Project 5 */}
+        <div class="card max-w-sm bg-base-100 shadow-xl">
+          <figure><img src="https://i.ibb.co/GCkZMQv/Screenshot-14-removebg-preview.png" alt="BEST Wedding img" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Choose Your Most Favourite Bike (Randomly Bike Website)
+            </h2>
+            <p>In this project we are providing Choose Your Most Favourite Bike.</p>
+            <div class="card-actions justify-end">
+              <button className="btn btn-sm btn-outline hover:bg-primary text-primary hover:text-white"><a href="http://https://github.com/Rijonahmed/Choose-Favourite-Bike" target="_blank" rel="noopener noreferrer">GitHub</a></button>
+              <button className="btn btn-sm btn-outline hover:bg-primary text-primary hover:text-white"><a href="https://favourite-bike-choose-for-1.netlify.app/" target="_blank" rel="noopener noreferrer">Live Preview</a></button>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
