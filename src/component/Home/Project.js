@@ -3,9 +3,14 @@ import { Link } from 'react-router-dom';
 
 const Project = () => {
   return (
-    <div className='mx-12 mt-10 mb-10'>
-      <h1 className='text-3xl font-bold text-center text-primary mb-10'>My Projects</h1>
-      <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
+    <div style={{
+      backgroundImage: `url("https://www.thisiscolossal.com/wp-content/uploads/2016/05/tumblr_o515shCl8I1r4dhkuo1_500.gif")`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: "cover",
+    }} className=' lg:py-10 '>
+
+      <h1 className='text-3xl font-bold text-center text-white mb-10'>My Projects</h1>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-7xl mx-auto'>
         <div class="card max-w-sm bg-base-100 shadow-xl">
           <figure><img src="https://i.ibb.co/sWr5kgW/Screenshot-13-removebg-preview.png" alt="Bank Img" /></figure>
           <div class="card-body">
@@ -24,7 +29,7 @@ const Project = () => {
           </div>
         </div>
         <div class="card max-w-sm bg-base-100 shadow-xl">
-          <figure><img src="https://i.ibb.co/YWbGS0M/Moto-Parts-removebg-preview.png" alt="moto parst img" /></figure>
+          <figure><img src="https://i.ibb.co/yy9QKY9/moto-Parts-1-removebg-preview.png" alt="moto parst img" /></figure>
           <div class="card-body">
             <h2 class="card-title">
               Moto Parts (Manufacturer Website)
