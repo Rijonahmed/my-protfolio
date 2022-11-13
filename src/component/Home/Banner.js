@@ -10,7 +10,7 @@ const Banner = () => {
     <div>
 
       <div className="hero bg-secondary" style={{
-        backgroundImage: `url("https://i.pinimg.com/originals/4f/52/12/4f52124b120691d0d56f47aa7c70edfb.png")`,
+        backgroundImage: `url("https://i.ibb.co/tBrQ6yd/Logo-Makr-0-KWy8-I.png")`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: "cover",
       }}>
@@ -49,11 +49,11 @@ const Banner = () => {
               transition={{
                 duration: 1,
                 ease: "easeInOut",
-                times: [0],
+                times: [1, 1, 0],
                 repeat: Infinity,
                 repeatDelay: 1
               }}
-            >👋</motion.div> I am &real;ijon Ahmed</h1>
+            >👋</motion.div> I am Rijon Ahmed</h1>
             <p class="py-6 font-bold text-1xl lg:text-2xl text-white">Junior web developer / React Expert</p>
 
             <motion.button

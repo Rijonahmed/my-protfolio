@@ -44,7 +44,7 @@ const Project = () => {
           </div>
         </div>
         <div class="card max-w-sm bg-base-100 shadow-xl">
-          <figure><img src="https://i.ibb.co/1dkZzkC/moto-delar-2-removebg-preview.png" alt="moto dealer img" /></figure>
+          <figure><img src="https://i.ibb.co/mTKKrYw/Screenshot-16-removebg-preview.png" alt="moto dealer img" /></figure>
           <div class="card-body">
             <h2 class="card-title">
               Moto Dealer (Warehouse inventory Website)

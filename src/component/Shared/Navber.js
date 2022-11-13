@@ -5,7 +5,7 @@ const Navber = () => {
   const manuItem = <>
     <li><Link to='/home'>Home</Link></li>
     <li><Link to='/resume'>Resume</Link></li>
-    <li><Link to='/about'>About</Link></li>
+    <li><Link to='/about'> About</Link></li>
     <li><Link to='/contactME'>Contact Me</Link></li>
     <li><Link to='/projects'>Projects</Link></li>
     <li><Link to='/education'>Education</Link></li>
@@ -18,7 +18,7 @@ const Navber = () => {
   return (
 
     <div className='sticky top-0 z-10'>
-      <div className="navbar bg-slate-800 text-base-100 ">
+      <div className="navbar bg-cyan-500 text-base-100 ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabindex="0" className="btn btn-ghost lg:hidden">
@@ -30,7 +30,7 @@ const Navber = () => {
 
             </ul>
           </div>
-          <Link className="btn btn-ghost normal-case text-xl" to='/' ><span className='text-primary'>Rijon Ahmed</span></Link>
+          <Link className="" to='/' ><span className=''><img src="https://i.ibb.co/FbnLsVk/Logo-Makr-5kk-Ko-Y.png" alt="logo" /></span></Link>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
