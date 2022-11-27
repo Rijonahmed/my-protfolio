@@ -30,7 +30,7 @@ const Navber = () => {
 
             </ul>
           </div>
-          <Link className="" to='/' ><span className=''><img src="https://i.ibb.co/FbnLsVk/Logo-Makr-5kk-Ko-Y.png" alt="logo" /></span></Link>
+          <Link className="" to='/' ><span className=''><img src="https://i.ibb.co/5rY85C2/Logo-Makr-1-TLNhj-1.png" alt="logo" /></span></Link>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
