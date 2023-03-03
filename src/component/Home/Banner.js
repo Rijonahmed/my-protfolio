@@ -9,8 +9,8 @@ const Banner = () => {
   return (
     <div>
 
-      <div className="hero bg-secondary" style={{
-        backgroundImage: `url("https://i.ibb.co/tBrQ6yd/Logo-Makr-0-KWy8-I.png")`,
+      <div className="hero " style={{
+        backgroundImage: `url("https://i.ibb.co/PTtPL5t/Black-Modern-Vlogger-You-Tube-Banner.png")`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: "cover",
       }}>
@@ -24,11 +24,13 @@ const Banner = () => {
             }}
 
           >
-            <motion.img src={bannerImg} class="max-w-xs lg:max-w-md mask mask-circle shadow-5xl" style={{
-              backgroundImage: `url("https://i.makeagif.com/media/2-17-2017/Mi6bfh.gif")`,
-              backgroundRepeat: 'no-repeat',
-              backgroundSize: "cover",
-            }} alt='' whileHover={{ scale: 0.9 }}
+            <motion.img src={bannerImg} class="max-w-xs lg:max-w-md mask mask-circle shadow-5xl"
+              style={{
+                backgroundImage: `url("https://i.makeagif.com/media/2-17-2017/Mi6bfh.gif")`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: "cover",
+              }} alt=''
+              whileHover={{ scale: 0.9 }}
               whileTap={{ scale: 0.9, }} transition={{
                 ease: "easeOut", duration: 0.5
               }} />
@@ -63,7 +65,7 @@ const Banner = () => {
                 ease: "easeOut", duration: .3
               }}
             ><a className='bg-primary p-3 rounded-2xl text-white font-bold text-center ' href="https://drive.google.com/file/d/1jP_MTWgPW32AM_teIBYb2djO5CuqTB47/view" target="_blank" rel="noopener noreferrer">Downlode Resume</a></motion.button>
-            <div className='flex mt-5'>
+            <div className='flex mt-5 text-white'>
               <motion.a whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9, }}
                 transition={{
