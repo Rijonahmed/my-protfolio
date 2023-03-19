@@ -30,7 +30,7 @@ const MySkills = () => {
           </div>
 
           <div data-aos="fade-up" data-aos-duration="1000">
-            <img className='object-cover' src="https://i.ibb.co/ckdTGdS/skill.webp" alt="education img" />
+            <img className='object-cover' src="https://i.ibb.co/QcGfzt3/skill-2.png" alt="education img" />
           </div>
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import bannerImg from '../../Images/fortfolioRijon.png';
 import { motion } from "framer-motion"
-import { FaGithub, FaFacebook, FaLinkedin, FaInstagram, FaHandSpock } from 'react-icons/fa';
+import { FaGithub, FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import bg_video from '../../Video/production ID_3944851.mp4'
 
 

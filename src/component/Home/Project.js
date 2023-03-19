@@ -7,7 +7,7 @@ const Project = () => {
       backgroundImage: `url("https://www.thisiscolossal.com/wp-content/uploads/2016/05/tumblr_o515shCl8I1r4dhkuo1_500.gif")`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: "cover",
-    }} className=' lg:py-10 '>
+    }} className=' py-10 '>
 
       <h1 className='text-3xl font-bold text-center text-white mb-10'>My Projects</h1>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-7xl mx-auto'>
@@ -80,6 +80,20 @@ const Project = () => {
             <div class="card-actions justify-end">
               <button className="btn btn-sm btn-outline hover:bg-primary text-primary hover:text-white"><a href="http://https://github.com/Rijonahmed/Choose-Favourite-Bike" target="_blank" rel="noopener noreferrer">GitHub</a></button>
               <button className="btn btn-sm btn-outline hover:bg-primary text-primary hover:text-white"><a href="https://favourite-bike-choose-for-1.netlify.app/" target="_blank" rel="noopener noreferrer">Live Preview</a></button>
+            </div>
+          </div>
+        </div>
+        {/* project 6 */}
+        <div class="card max-w-sm bg-base-100 shadow-xl">
+          <figure><img src="https://i.ibb.co/mbHZXSw/Screenshot-removebg-preview.png" alt="BEST Wedding img" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Appointment Doctor in dentist (Appointment Website)
+            </h2>
+            <p>In this project we are providing doctor appointment.</p>
+            <div class="card-actions justify-end">
+              <button className="btn btn-sm btn-outline hover:bg-primary text-primary hover:text-white"><a href="https://github.com/Rijonahmed/Doctor-portal-client" target="_blank" rel="noopener noreferrer">GitHub</a></button>
+              <button className="btn btn-sm btn-outline hover:bg-primary text-primary hover:text-white"><a href="https://doctor-portal-4cfc4.web.app/" target="_blank" rel="noopener noreferrer">Live Preview</a></button>
             </div>
           </div>
         </div>
