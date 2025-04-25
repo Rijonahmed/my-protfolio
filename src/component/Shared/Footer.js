@@ -23,7 +23,7 @@ const Footer = () => {
               whileTap={{ scale: 0.9, }}
               transition={{
                 ease: "easeOut", duration: .3
-              }} className='mr-4' href="https://www.linkedin.com/in/rijon-ahmed-7274ab240/" target="_blank" rel="noopener noreferrer"><FaLinkedin size="2em"></FaLinkedin></motion.a>
+              }} className='mr-4' href="https://www.linkedin.com/in/rijonahmed036/" target="_blank" rel="noopener noreferrer"><FaLinkedin size="2em"></FaLinkedin></motion.a>
             <motion.a whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9, }}
               transition={{

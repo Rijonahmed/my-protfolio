@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerImg from '../../Images/fortfolioRijon.png';
+import bannerImg from '../../Images/fortfolioRijon.jpg';
 import { motion } from "framer-motion"
 import { FaGithub, FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import bg_video from '../../Video/production ID_3944851.mp4'
@@ -76,7 +76,7 @@ const Banner = () => {
                 whileTap={{ scale: 0.9, }}
                 transition={{
                   ease: "easeOut", duration: .3
-                }} className='mr-4' href="https://www.linkedin.com/in/rijon-ahmed-7274ab240/" target="_blank" rel="noopener noreferrer"><FaLinkedin size="2em" className=''></FaLinkedin></motion.a>
+                }} className='mr-4' href="https://www.linkedin.com/in/rijonahmed036/" target="_blank" rel="noopener noreferrer"><FaLinkedin size="2em" className=''></FaLinkedin></motion.a>
               <motion.a whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9, }}
                 transition={{
