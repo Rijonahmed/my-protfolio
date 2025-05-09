@@ -10,7 +10,7 @@ const Education = () => {
             Background</h3>
           <p className='font-bold text-1xl'>• SSC batch-2017 from Amirjan High School in Dumni, Khilkhet, Dhaka.</p>
           <p className='font-bold text-1xl py-2'> • HSC batch-2019 from Amirjan College in Dumni, Khilkhet, Dhaka. </p>
-          <p className='font-bold text-1xl'>• Now i am studing in Honor's 2nd year from Uttara Town Colege in Uttara, Abdullapur, Dhaka.</p>
+          <p className='font-bold text-1xl'>• Now i am studing in Honor's 4th year from Uttara Town Colege in Uttara, Abdullapur, Dhaka.</p>
 
         </div>
 
